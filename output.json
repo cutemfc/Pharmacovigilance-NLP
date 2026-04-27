@@ -1,0 +1,214 @@
+{
+    "Identifiable Patient": "45 - year old, woman",
+    "Suspected Drug": "opril, prednisolone, methyl, henhydramine, ep, sin, li, dip",
+    "Adverse Event": "pain, shortness of breath, swelling, ed, irregular, ang",
+    "Identificable Reporter": "hospital, primary care physician",
+    "Requires Human Intervention": [
+        {
+            "Entity": "elevated",
+            "Label": "Lab_value",
+            "Score": 0.8766,
+            "Required": 0.9
+        },
+        {
+            "Entity": "acute",
+            "Label": "Detailed_description",
+            "Score": 0.7656,
+            "Required": 0.9
+        },
+        {
+            "Entity": "si",
+            "Label": "Detailed_description",
+            "Score": 0.8933,
+            "Required": 0.9
+        },
+        {
+            "Entity": "ineph",
+            "Label": "Medication",
+            "Score": 0.7429,
+            "Required": 0.9
+        }
+    ],
+    "Passed_Validation": [
+        {
+            "Entity": "45 - year old",
+            "Label": "Age",
+            "Score": 0.9977
+        },
+        {
+            "Entity": "woman",
+            "Label": "Sex",
+            "Score": 0.9996
+        },
+        {
+            "Entity": "3. 21. 2025",
+            "Label": "Date",
+            "Score": 0.9441
+        },
+        {
+            "Entity": "presented",
+            "Label": "Clinical_event",
+            "Score": 0.9999
+        },
+        {
+            "Entity": "emergency department",
+            "Label": "Nonbiological_location",
+            "Score": 0.9998
+        },
+        {
+            "Entity": "chest",
+            "Label": "Biological_structure",
+            "Score": 0.9997
+        },
+        {
+            "Entity": "pain",
+            "Label": "Sign_symptom",
+            "Score": 1.0
+        },
+        {
+            "Entity": "shortness of breath",
+            "Label": "Sign_symptom",
+            "Score": 0.9994
+        },
+        {
+            "Entity": "blood pressure",
+            "Label": "Diagnostic_procedure",
+            "Score": 0.9991
+        },
+        {
+            "Entity": "irregular",
+            "Label": "Sign_symptom",
+            "Score": 0.9886
+        },
+        {
+            "Entity": "admitted",
+            "Label": "Clinical_event",
+            "Score": 0.9999
+        },
+        {
+            "Entity": "hospital",
+            "Label": "Nonbiological_location",
+            "Score": 0.9947
+        },
+        {
+            "Entity": "ang",
+            "Label": "Disease_disorder",
+            "Score": 0.9994
+        },
+        {
+            "Entity": "ed",
+            "Label": "Disease_disorder",
+            "Score": 0.914
+        },
+        {
+            "Entity": "li",
+            "Label": "Medication",
+            "Score": 0.9999
+        },
+        {
+            "Entity": "sin",
+            "Label": "Medication",
+            "Score": 0.9999
+        },
+        {
+            "Entity": "opril",
+            "Label": "Medication",
+            "Score": 0.9858
+        },
+        {
+            "Entity": "20 mg",
+            "Label": "Dosage",
+            "Score": 0.9996
+        },
+        {
+            "Entity": "oral",
+            "Label": "Administration",
+            "Score": 0.9746
+        },
+        {
+            "Entity": "three hours after",
+            "Label": "Time",
+            "Score": 0.9945
+        },
+        {
+            "Entity": "swelling",
+            "Label": "Sign_symptom",
+            "Score": 1.0
+        },
+        {
+            "Entity": "lips",
+            "Label": "Biological_structure",
+            "Score": 0.9994
+        },
+        {
+            "Entity": "ep",
+            "Label": "Medication",
+            "Score": 0.9998
+        },
+        {
+            "Entity": "0. 3mg",
+            "Label": "Dosage",
+            "Score": 0.999
+        },
+        {
+            "Entity": "dip",
+            "Label": "Medication",
+            "Score": 0.9998
+        },
+        {
+            "Entity": "henhydramine",
+            "Label": "Medication",
+            "Score": 0.9964
+        },
+        {
+            "Entity": "50 mg",
+            "Label": "Dosage",
+            "Score": 0.9997
+        },
+        {
+            "Entity": "intra",
+            "Label": "Administration",
+            "Score": 0.9993
+        },
+        {
+            "Entity": "methyl",
+            "Label": "Medication",
+            "Score": 0.9999
+        },
+        {
+            "Entity": "prednisolone",
+            "Label": "Medication",
+            "Score": 0.92
+        },
+        {
+            "Entity": "125 mg",
+            "Label": "Dosage",
+            "Score": 0.9997
+        },
+        {
+            "Entity": "observed",
+            "Label": "Clinical_event",
+            "Score": 0.9971
+        },
+        {
+            "Entity": "several hours",
+            "Label": "Duration",
+            "Score": 0.9944
+        },
+        {
+            "Entity": "discharged",
+            "Label": "Clinical_event",
+            "Score": 0.9998
+        },
+        {
+            "Entity": "home",
+            "Label": "Nonbiological_location",
+            "Score": 0.9994
+        },
+        {
+            "Entity": "primary care physician",
+            "Label": "Nonbiological_location",
+            "Score": 0.9686
+        }
+    ]
+}
